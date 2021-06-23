@@ -138,3 +138,139 @@ li{
     margin-top: 10px;
 }
 
+.postwork{
+    display: flex;
+    background-color: #a1d683;
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.postwork .overview{
+    flex: 2;
+    padding-right: 100px;
+}
+
+.postwork .overview img{
+    width: 500px;
+    max-width: 100%;
+}
+
+.postwork .overview h2{
+    font-family: 'Alegreya', serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.postwork .overview p{
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.postwork .overview button{
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.postwork .stories-carousel{
+    position: static;
+    flex: 1;
+    padding-right: 10px;
+    flex-flow: column;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.postwork .stories-carousel figure{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.postwork .stories-carousel .worker img{
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.postwork .stories-carousel .company{
+    z-index: 1;
+    position: relative;
+    bottom: 80px;
+    right: -170px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postwork .stories-carousel .company img{
+    max-width: 75%;
+}
+
+.postwork .stories-carousel .description {
+    position: relative;
+    bottom: 80px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.postwork .stories-carousel .description h4{
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;    
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.postwork .stories-carousel .description h3{
+    font-size: 25px;
+    font-weight: 400;    
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.postwork .stories-carousel .result{
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.postwork .stories-carousel .result img{
+    width: 26px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.postwork .stories-carousel .result p{
+    margin-top: 0;
+}
+
+.postwork .stories-carousel button{
+    display: block;
+    margin: 40px 0 40px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 20px;
+}
