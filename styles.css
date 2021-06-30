@@ -6,6 +6,7 @@ h1 {
 p {
     color: #8b8b8bcc;
     text-align: center;
+    font-size: 20px;
 }
 
 button {
@@ -14,8 +15,8 @@ button {
 }
 
 body {
-    /* background-color: #fffbf7; */
-    background-image: url(https://unsplash.com/photos/t4wI_Wv6g_k);
+    background-color: #fffbf7; 
+    /*background-image: url(https://unsplash.com/photos/t4wI_Wv6g_k);*/
 }
 
 *{
@@ -26,6 +27,11 @@ body {
 
 li{
     display: inline;
+}
+
+main{
+    margin-top: 285px;
+    text-align: center;
 }
 
 .header {
@@ -138,6 +144,8 @@ li{
     margin-top: 10px;
 }
 
+
+/*POSTWORK*/
 .postwork{
     display: flex;
     background-color: #a1d683;
@@ -445,5 +453,107 @@ li{
     text-decoration: none;
 }
 
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    .navbar, 
+    .actions{
+        display: none;
+    }
+
+    main{
+        margin-top: 130px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .banner > img {
+        width: 100%;
+    }
+
+
+    .publish{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .publish > form{
+        flex-direction: column;
+    }
+
+    .publish > form > input {
+        width: 90%;
+    }
+
+    .publish > form > button {
+        width: 92%;
+    }
+
+    .publish > form > div {
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .publish > form > div > input {
+        width: 65%;
+    }
+
+    /*
+    .publish input {
+        margin-bottom: 10px;
+    }*/
+
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .promo{
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .explanatory-video > video {
+        width: 100%;
+    }
+
+
+    /*Features*/
+    .features{
+        /*grid-template-columns: 1fr;*/
+        /*grid-template-rows: repeat(4, 1fr) / 1fr;*/
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+    .feature-image{
+        display: none;
+    }
+    
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+
+} 
 
 
